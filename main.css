@@ -1,0 +1,62 @@
+.dropable {
+    border: dashed 1px #808080;
+}
+
+.dragable {
+    border: solid 1px #292929;
+    background-color: burlywood;
+}
+
+.month {
+    background: lightblue;
+    margin: 16px;
+    padding: 0px;
+    border: 1px solid black;
+    width: 38em;
+    height: 30em;
+}
+.month h2{
+    background: #ffffff;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid black;
+
+}
+.week {
+    padding: 0px;
+    margin: 0px;
+}
+
+.week div {
+    border: 0.1em dashed gray;
+    width: 4em;
+    height: 4em;
+    margin: 0.2em;
+    float: left;
+}
+
+.week div.weekno {
+    background: lightgray;
+    line-height: 4em;
+    vertical-align: bottom;
+    font-weight:  bold;
+    text-align: center;
+}
+
+.active {
+    color: black;
+    background: white;
+}
+
+.green {
+    background: rgb(161, 255, 181);
+    color: rgb(23, 59, 31);
+}
+.yellow {
+    background: rgb(229, 238, 179);
+    color: rgb(63, 70, 23);
+}
+.red {
+    background: rgb(238, 186, 179);
+    color: rgb(26, 9, 9);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kanbanboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="moment.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <div id="kanban">
+        <month-component v-for="mon in months" :key="mon" v-bind:month-number="mon" v-bind:items="monthItems[mon]"></month>
+    </div>
+
+    <!--<div class="dropable cube" ondragover="allowDrop(event)"
+        ondrop="drop(event)">
+        &nbsp;
+    </div>
+
+    <div class="dragable cube-s" id="Item1" draggable="true"
+        ondragstart="drag(event)"> Drop me!</div>
+
+    <div class="dragable cube-s" id="Item2" draggable="true"
+        ondragstart="drag(event)"> Drop me!</div>
+
+    <div class="dragable cube-s" id="Item3" draggable="true"
+        ondragstart="drag(event)"> Drop me!</div>-->
+
+    <script src="main.js"></script>
+</body>
+</html>
