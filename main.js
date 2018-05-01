@@ -3,11 +3,11 @@ const dayComponent = {
     props:["day", "month", "items"],
     template:"<div v-bind:class='[dayColor, day]'>" + 
         "<small>{{formatedDay}}</small><br />" +
-        "<span>{{totalDuration}}</span>" +
+        "<small>{{totalDuration}}</small>" +
         "</div>",
     computed: {
         formatedDay: function(){
-            return moment(this.day).format("DD.MM.");
+            return moment(this.day).format("DD.");
         },
         dayColor: function() {
             if (this.day.month() !== this.month) { return ''; }

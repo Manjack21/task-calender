@@ -8,19 +8,17 @@
 }
 
 .month {
-    background: lightblue;
     margin: 16px;
     padding: 0px;
-    border: 1px solid black;
+    border: 0.1em solid lightgray;
+    border-radius: 0.5em;
     width: 38em;
-    height: 30em;
+    height: 21em;
 }
-.month h2{
-    background: #ffffff;
+.month h2{    
     padding: 0px;
+    padding-left: 2em;
     margin: 0px;
-    border-bottom: 1px solid black;
-
 }
 .week {
     padding: 0px;
@@ -28,16 +26,17 @@
 }
 
 .week div {
-    border: 0.1em dashed gray;
+    border: 0.1em solid lightgray;
     width: 4em;
-    height: 4em;
+    height: 2.5em;
     margin: 0.2em;
+    padding-left: 0.2em;
     float: left;
 }
 
 .week div.weekno {
-    background: lightgray;
-    line-height: 4em;
+    border: 0em dashed gray;
+    line-height: 2.5em;
     vertical-align: bottom;
     font-weight:  bold;
     text-align: center;
